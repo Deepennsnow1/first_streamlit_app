@@ -44,6 +44,8 @@ streamlit.dataframe(fruityvice_normalized)
 
 # Check to Confirm the Snowflake Connector Package Will Add Successfully
 
+streamlit.stop()
+
 # Let's Query Some Data, Instead
 
 #my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
